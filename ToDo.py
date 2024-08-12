@@ -11,7 +11,7 @@ entries = {}
 def printEntries():
     print(entries)
     for x in entries:
-        print()
+        print(f"{x}:\n {entries[x][0], {entries[x][1]}}")
 
 def newEntrie():
     entrie = "hola" #input("Type the desired entrie: ")
